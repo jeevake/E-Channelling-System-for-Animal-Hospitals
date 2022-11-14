@@ -1,0 +1,81 @@
+h5{
+    color: #7900FF;
+}
+
+.btn-main{
+    background-color: #7900FF;
+    border-color: #7900FF;
+    border-radius: 2rem;
+}
+
+.btn-main-w{
+    width:120px;
+}
+
+.btn-main-outline{
+    color: #7900FF;
+    background-color: transparent;
+    border-color: #7900FF;
+    border-radius: 2rem;
+}
+
+.btn-search{
+    color: #ffffff;
+    background-color: #7900FF;
+    border-color: #7900FF;
+    /* border-radius: 2rem; */
+    /* width: 6rem; */
+}
+
+.form-search{
+    width: 25rem;
+}
+
+.bg-grd{
+
+    /* ff 3.6+ */
+    background:-moz-radial-gradient(circle at 100% 0%, #D7B3FF 0%, #EDE4FF 32%, #FFFFFF 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 100% 0%, #D7B3FF 0%, #EDE4FF 32%, #FFFFFF 100%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 100% 0%, #D7B3FF 0%, #EDE4FF 32%, #FFFFFF 100%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 100% 0%, #D7B3FF 0%, #EDE4FF 32%, #FFFFFF 100%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 100% 0%, #D7B3FF 0%, #EDE4FF 32%, #FFFFFF 100%);
+
+}
+
+.blur-div{
+    position: absolute;
+    top: 9rem;
+    width: 350px;
+    height: 200px;
+    border-radius: 50%;
+    background: #c2fff2;
+    z-index: -10;
+    left: 68%;
+    filter: blur(90px);
+}
+
+.bg-sqr{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border-radius: 30px;
+    background-color: #7900FF;
+    opacity: 6%;
+    z-index: -7;
+    transform: rotate(45deg);
+    top: 2250px;
+}
+
+.sqr-sm{
+    height: 140px;
+    width: 140px;
+
+}
